@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Bora pra praia - Home </title>
+
+    <style>
+        body { /* estilizando o body */
+            background-color: antiquewhite;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        body img { /*estilizando as imagens do body */
+            border-radius: 20px; /* alterando a borda da imagem */
+            display: block; /* bloqueando a posicao da imagem */
+            width: 50%; /* diminuindo um pouco a imagem */
+            height: 50%; /* alterando um pouco a altura da imagem */
+            margin: 0 auto; /* automatizando a distancia da margem */ 
+        }
+        .imgbutton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        header {
+            color: blue;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 20px;
+            font-size: 50px;
+            background-color: antiquewhite;
+            padding: 2rem;
+            border-top: 0;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: medium;
+            color: orangered;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            border-radius: 30px;
+            border: none;
+            padding: 20px;
+            font-size: 1rem;
+            margin-left: 40px;
+            margin-top: 30px;
+            margin-right: 40px;
+            display: inline-block;
+        }
+        .seriebotoes {
+            margin-top: 20px;
+            display: flex; /* deixando os botões soltos */
+            justify-content: center; /* centralizar os botoes */
+        }
+        .seriebotoes a {
+            margin: 0 5px; /* espaço entre os botões */
+            display: inline-block; /* inline-block para os botões ficarem um do lado do outro */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <header> BORA PRA PRAIA </header>
+    <div class = "imgbutton">
+        <img src="pontehercilio.jpg">
+
+        <div class="seriebotoes">
+            <a href="probema.html"> 
+                <button> Problema </button> 
+            </a>
+
+            <a href="propostavalor.html">
+                <button> Proposta de valor </button>
+            </a>
+
+            <a href="nicho.html">
+                <button> Nicho </button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
