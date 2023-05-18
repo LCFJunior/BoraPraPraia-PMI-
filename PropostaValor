@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Proposta de valor - Bora pra praia </title>
+    
+    <style>
+    body { /* estilizando o body */
+        background-color: antiquewhite;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    button { /* estilizando o button */
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            border-radius: 30px;
+            border: none;
+            padding: 20px;
+            font-size: 1rem;
+            margin-left: 40px;
+            margin-top: 30px;
+            margin-right: 40px;
+            display: inline-block;
+    }
+    header {
+            color: blue;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 20px;
+            font-size: 50px;
+            background-color: antiquewhite;
+            padding: 2rem;
+            border-top: 0;
+            text-decoration: none !important;
+    }
+    .thiago {
+        color:blue;
+        font-family: 'Montserrat', sans-serif;
+        cursor:pointer;
+
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        font-size: 18px;
+        max-width: 100em;
+    }
+    h1 {
+        font-size: 40px;
+        padding: 2rem;  
+    }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <p-button class = 'thiago' onclick="voltarHome()"> BORA PRA PRAIA </p-button>
+
+        <script>
+            function voltarHome() {
+                window.location.href = "index.html";
+            }
+        </script>
+    </header>
+
+    <h1> Proposta de valor </h1>
+    <p> </p>
+</body>
+</html>
